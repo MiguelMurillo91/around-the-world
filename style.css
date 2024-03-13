@@ -474,7 +474,10 @@ footer .tiktok::after {
 	height: 100%;
 }
 .button {
-	margin-top: 8rem;
+	margin-top: 4rem;
+	gap: 4rem;
+	display: flex;
+	flex-wrap: wrap;
 }
 .button a {
 	margin-right: 4rem;
@@ -557,5 +560,13 @@ footer .tiktok::after {
 	}
 	.hero p {
 		font-size: 2rem;
+	}
+}
+@media (width <= 400px) {
+	h1 {
+		font-size: 3rem;
+	}
+	.hero p {
+		font-size: 1.5rem;
 	}
 }
