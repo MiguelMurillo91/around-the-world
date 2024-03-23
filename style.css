@@ -318,7 +318,7 @@ h3 {
 /* ****************************************************************************************************************** */
 /* Testimonial */
 .testimonial {
-	margin-top: 16rem;
+	margin-top: 12rem;
 	text-align: center;
 }
 .testimonials {
@@ -346,7 +346,7 @@ footer {
 	color: var(--backgroundColor);
 	padding: 4rem 24.8rem;
 	display: flex;
-	margin-top: 16rem;
+	margin-top: 8rem;
 	height: 20rem;
 }
 footer .footer-img {
@@ -510,8 +510,19 @@ footer .tiktok::after {
 }
 
 /* ************************************************************************************************************************************************************************** */
-/* ************************************************************************************************************************************************************************** */
-/* ************************************************************************************************************************************************************************** */
+/* SPONSORS */
+
+.sponsor-gallery {
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	margin: 0 auto;
+	gap: 6rem;
+}
+.sponsor-gallery img {
+	width: 100%;
+}
+
 /* MEDIA QUERIES */
 @media (width <= 1250px) {
 	header {
@@ -542,6 +553,9 @@ footer .tiktok::after {
 	.hero div,
 	.hero figure {
 		width: 70%;
+	}
+	.sponsor-gallery {
+		flex-direction: column;
 	}
 }
 
