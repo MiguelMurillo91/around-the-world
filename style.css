@@ -94,7 +94,9 @@ nav .dropdown-link-second:hover {
 			rgba(35, 3, 58, 0.7)
 		),
 		url("./assets/hero-image.webp");
-	height: 55rem;
+	background-repeat: no-repeat; /* Prevent background image from repeating */
+	background-size: cover; /* Adjust the background size */
+	height: 60rem;
 }
 .hero-text {
 	display: flex;
@@ -152,6 +154,17 @@ h1 {
 	background-color: var(--buttonHover);
 	transition: 0.3s;
 }
+.aux {
+	width: 100%;
+	display: flex;
+	align-content: space-between;
+}
+/* .aux a {
+	width: 20rem;
+} */
+/* .aux p {
+	width: 60%;
+} */
 /* ******************************************************************************************************************/
 /* MAIN */
 main {
@@ -526,6 +539,10 @@ footer .tiktok::after {
 	.section-img {
 		width: 100%;
 	}
+	.hero div,
+	.hero figure {
+		width: 70%;
+	}
 }
 
 @media (width <= 940px) {
@@ -560,6 +577,9 @@ footer .tiktok::after {
 	}
 	.hero p {
 		font-size: 2rem;
+	}
+	.hero {
+		height: 65rem;
 	}
 }
 @media (width <= 400px) {
