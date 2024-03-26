@@ -516,7 +516,7 @@ footer .tiktok::after {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 50%;
+	width: 85%;
 	margin: 0 auto;
 	gap: 6rem;
 }
