@@ -515,6 +515,7 @@ footer .tiktok::after {
 .sponsor-gallery {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	width: 50%;
 	margin: 0 auto;
 	gap: 6rem;
